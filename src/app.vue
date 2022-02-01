@@ -36,6 +36,7 @@
 
 <style media="screen">
     @import "assets/css/fontawesomepro.css";
+    @import "assets/css/animista.css";
     @import "assets/css/tachyons-sass/tachyons.scss";
     @import "assets/css/style.css";
 
