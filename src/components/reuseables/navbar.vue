@@ -33,7 +33,7 @@
               <div class="fl w-100 pointer ">    
                 <div class="ph2 w-70 center overflow-y-scroll pt3 fl vh-100 z-max fw5 bg-black-90 dn-l dark-gray">
                   <div class="fl w-100">
-                    <div class="b pl2 pv4 f f6-m" @click="toggleMenu">
+                    <div class="b pl2 pv3 f f6-m" @click="toggleMenu">
                       <div class="link white tr">Close</div>
                     </div>
                   </div>
