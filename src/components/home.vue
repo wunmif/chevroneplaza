@@ -106,7 +106,7 @@
                     </div>
                     <div class="w-80 center cf">
                         <div  class="flex flex-wrap w-100">
-                            <div  class="w-30-ns w-100 mr3 pt0-l pt3 tc" v-for="(market, index) in marketList" :key="index">
+                            <div  class="w-30-ns w-100 mr3 pt3 tc" v-for="(market, index) in marketList" :key="index">
                                 <div class="w-100 pa1">
                                     <div class="fl w-100">
                                         <!-- <img :src="market.imagepath" @error="market.imagepath = defaultimage"  class="dn"> -->
