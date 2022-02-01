@@ -1,7 +1,5 @@
 const path = require('path')
-const {
-    VueLoaderPlugin
-} = require('vue-loader')
+const { VueLoaderPlugin } = require('vue-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractCssChunks = require('extract-css-chunks-webpack-plugin');
 
@@ -39,7 +37,7 @@ module.exports = {
                         options: {
                             // you can specify a publicPath here
                             // by default it uses publicPath in webpackOptions.output
-                            publicPath: '../../',
+                            publicPath: '../..',
                             hmr: process.env.NODE_ENV === 'development',
                         },
                     },
