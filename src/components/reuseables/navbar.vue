@@ -4,7 +4,7 @@
       <div class="fixed z-1 w-100 cf">
 
         <nav class="tc w-100 center bg-white shadow-2">
-          <div class="cf w-100 pv2">
+          <div class="cf w-100 pv1">
             <div class="fl w-100 ph3 ph5-l">
               <div class="fl w-20-l w-50 tl">
                 <img class="h3-l h2" src="@/assets/img/logo.png" />
