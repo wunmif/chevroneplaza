@@ -5,7 +5,7 @@
         
         <router-view class="h-100 w-100 overflow-scroll"></router-view>
 
-        <footer />
+       
     </div>
 </template>
 
@@ -20,13 +20,12 @@
 
 <script type="text/javascript">
     import navbar from "@/components/reuseables/navbar";
-    import footer from "@/components/reuseables/footer";
-   
+
    
     export default {
         components: {
             navbar,
-            footer,
+            
           
         },
         created() {
