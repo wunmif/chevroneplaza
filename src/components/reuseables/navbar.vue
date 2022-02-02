@@ -6,18 +6,18 @@
         <nav class="tc w-100 center bg-white shadow-2">
           <div class="cf w-100 pv1">
             <div class="fl w-100 ph3 ph5-l">
-              <div class="fl w-20-l w-50 tl">
+              <div class="fl pa1 w-20-l w-50 tl">
                 <img class="h3-l h2" src="@/assets/img/logo.png" />
               </div>
-              <div class="fl w-50 dn db-l">
-                <router-link to="/" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">Home</router-link>
-                <router-link to="/" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">About</router-link>
-                <router-link to="/" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">Features</router-link>
-                <router-link to="/brand" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">Pricing</router-link>
+              <div class="fl pa1 w-50 dn db-l">
+                <router-link to="/" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph3-l">Home</router-link>
+                <router-link to="/" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph3-l">About</router-link>
+                <router-link to="/" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph3-l">Features</router-link>
+                <router-link to="/" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph3-l">Pricing</router-link>
               </div>
-              <div class="fl w-30 dn db-l tr">
-                <router-link to="/contact" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">Login</router-link>
-                <router-link to="/writeup" class="pointer f6 f5-l tracked black link mh3 dib pa3 fw5 ttu ph4-l">Launch a Store</router-link>
+              <div class="fl pa1 w-30 dn db-l tr">
+                <router-link to="/contact" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph2-l">Login</router-link>
+                <router-link to="/writeup" class="pointer f6 f5-l tracked black link mh2 dib pa3 fw5 ttu ph2-l">Launch a Store</router-link>
               </div>
               <div class="fl w-50 dn-l tr">
                 <span class="flex items-center fr pointer tc pa2 pb1 ba br1 b--near-white shadow-1 " @click="toggleMenu"> 
